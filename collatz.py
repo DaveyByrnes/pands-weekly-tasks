@@ -7,6 +7,7 @@
 
 def collatz(num): # define collatz as a function
     while num != 1:
+        print(num)
         if num % 2 == 0: # divides even numbers by 2
             num = num // 2
         else:
@@ -17,6 +18,4 @@ num = int(input("Please enter a positive integer:"))
 if num <=0:
     print("This number is not a positive interger. Please try again.")
 else:
-    collatz(num)
-
-    
+    print(collatz(num))

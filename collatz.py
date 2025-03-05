@@ -3,7 +3,7 @@
 # successive values of the following calculation.
 # at each step, calculate the next value by taking the current value and, if it is even
 # divide it by two, but if it is odd, mulitply it by three and add one.
-# author: David Byrne :)
+# author: Dave Byrne :)
 
 def collatz(num): # define collatz as a function
     while num != 1:

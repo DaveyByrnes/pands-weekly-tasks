@@ -18,4 +18,4 @@ num = int(input("Please enter a positive integer:"))
 if num <=0:
     print("This number is not a positive interger. Please try again.")
 else:
-    print(collatz(num))
+    collatz(num)

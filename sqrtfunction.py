@@ -31,4 +31,3 @@ def sqrt(num, tolerance = 1e-6): # did not understand tolerance, deepseek helped
         guess = new_guess
 
 # test function
-

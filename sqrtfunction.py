@@ -29,5 +29,9 @@ def sqrt(num, tolerance = 1e-6): # did not understand tolerance, deepseek helped
         if abs(new_guess - guess) < tolerance: # abs returns the absolute value of a number, helpful for complex numbers; source: python 3 documentation
             return new_guess
         guess = new_guess
+        
+# run function
 
-# test function
+input_num = float(input("Enter a positive number to find the square root of: "))
+print("The square root of", input_num, "is approximately", sqrt(input_num))
+
